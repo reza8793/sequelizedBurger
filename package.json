@@ -1,0 +1,33 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Burger app with MySQL, express, node and homemade ORM",
+  "main": "server.js",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reza8793/burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reza8793/burger/issues"
+  },
+  "homepage": "https://github.com/reza8793/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.6",
+    "method-override": "^2.3.7",
+    "mysql": "^2.12.0",
+    "sequelize": "^3.29.0"
+  }
+}
